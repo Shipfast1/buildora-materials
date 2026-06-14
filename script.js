@@ -51,7 +51,7 @@ const showStep = step => {
 $$(".next-step").forEach(button => button.addEventListener("click", () => showStep(Math.min(3, currentStep + 1))));
 $$(".back-step").forEach(button => button.addEventListener("click", () => showStep(Math.max(1, currentStep - 1))));
 
-const ADMIN_WHATSAPP = "917200392373";
+const ADMIN_WHATSAPP = "919962144145";
 const ADMIN_EMAIL = "hello@buildoramaterials.in";
 
 const buildQuoteMessage = () => {
