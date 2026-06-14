@@ -52,7 +52,7 @@ $$(".next-step").forEach(button => button.addEventListener("click", () => showSt
 $$(".back-step").forEach(button => button.addEventListener("click", () => showStep(Math.max(1, currentStep - 1))));
 
 const ADMIN_WHATSAPP = "919962144145";
-const ADMIN_EMAIL = "hello@buildoramaterials.in";
+const ADMIN_EMAIL = "info@buildoramaterials.in";
 
 const buildQuoteMessage = () => {
   const products = $$('input[name="product"]:checked').map(input => input.value).join(", ") || "Not specified";
